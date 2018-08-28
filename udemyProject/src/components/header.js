@@ -16,10 +16,19 @@ export default class Header extends Component{
 };
 const styles = StyleSheet.create({
     viewStyle: {
-        backgroundColor: '#F8F8F8'
+        backgroundColor: '#F8F8F8',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: 60,
+        paddingTop: 15,
+        //shadowColor: '#000',
+        //shadowOffset: {width: 0, height: 20},
+        //shadowOpacity: 0.2,
+        elevation: 2,
+        position: 'relative'
     },
     textStyle: {
-        fontSize: 36,
+        fontSize: 32,
         fontWeight: 'bold'
     }
 });
