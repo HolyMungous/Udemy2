@@ -6,7 +6,7 @@ import Header from './src/components/header';
 export default class App extends React.Component {
   render() {
     return (
-		<Header></Header>
+		<Header headerText='Albums'/>
     );
   }
 }
