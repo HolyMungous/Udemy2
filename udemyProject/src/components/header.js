@@ -10,8 +10,7 @@ export default class Header extends Component{
             <View style={styles.viewStyle}>
                 <Text style={styles.textStyle}>{this.props.headerText}</Text>
             </View>
-    );
-       
+        );
     }
 };
 const styles = StyleSheet.create({
